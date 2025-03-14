@@ -24,9 +24,6 @@
 // THE SOFTWARE.
 //
 
-#import <TargetConditionals.h>
-#if TARGET_OS_TV
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for raygun4apple_tvOS.
@@ -49,5 +46,3 @@ FOUNDATION_EXPORT const unsigned char raygun4apple_tvOSVersionString[];
 #import "RaygunThread.h"
 #import "RaygunUserInformation.h"
 #import "RaygunBreadcrumb.h"
-
-#endif /* TARGET_OS_TV */

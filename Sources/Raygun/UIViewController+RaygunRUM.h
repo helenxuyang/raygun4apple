@@ -24,9 +24,6 @@
 // THE SOFTWARE.
 //
 
-#import <TargetConditionals.h>
-#if !TARGET_OS_OSX
-
 #ifndef UIViewController_RaygunRUM_h
 #define UIViewController_RaygunRUM_h
 
@@ -51,4 +48,3 @@
 @end
 
 #endif /* UIViewController_RaygunRUM_h */
-#endif /* !Target_OS_OSX */
